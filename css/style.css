@@ -27,6 +27,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     background-color: #000000;
+    z-index: 900;
 }
 
 .function-top {
@@ -41,6 +42,39 @@ body {
     font-size: 12px;
 }
 
+/* regole main */
+.central-box {
+    width: 85%;
+    height: 85%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+    overflow: auto;
+}
+
+.col-user-cam {
+    width: calc(100% / 7 - 3px);
+    position: relative;
+}
+
+.central-box img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.nickname {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    font-size: 10px;
+    color: white;
+}
 
 /* regole DEBUG */
 .box-wrapper {
@@ -50,3 +84,8 @@ body {
 /* .nav-top {
     background-color: blue;
 } */
+
+.central-box {
+    background-color: aqua;
+    border: 15px solid brown;
+}
