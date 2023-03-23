@@ -1,0 +1,52 @@
+/* regole generali pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* regole contenitore */
+.box-wrapper {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+/* regole barra superiore */
+.nav-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #000000;
+}
+
+.function-top {
+    color: white;
+    margin-right: 5px;
+}
+
+.function-top span {
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+
+/* regole DEBUG */
+.box-wrapper {
+    background-color: red;
+}
+
+/* .nav-top {
+    background-color: blue;
+} */
