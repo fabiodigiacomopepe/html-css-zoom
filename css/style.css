@@ -48,7 +48,7 @@ body {
     width: 90%;
     height: 85%;
     margin: 0 auto;
-    padding-top: 60px;
+    padding: 60px 0;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
